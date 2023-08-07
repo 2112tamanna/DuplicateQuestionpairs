@@ -16,7 +16,12 @@ question1, question2 - the full text of each question
 is_duplicate - the target variable, set to 1 if question1 and question2 have essentially the same meaning, and 0 otherwise.
 
 ## Project Overview
-In this project, different learning algorithms including Logistic regression, decision tree, XGBoost and random forest have been used to find the best algorithm for predicting whether given two questions are same or not.
+In this project, different learning algorithms including
+ ### 1.Logistic regression
+### 2.Decision tree
+### 3.XGBoost 
+### 4.RandomForestClassifier
+have been used to find the best algorithm for predicting whether given two questions are same or not.
 
 ## Conclusion
 
