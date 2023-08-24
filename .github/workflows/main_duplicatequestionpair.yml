@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'duplicatequestionpair'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_88B1C7E17AC44485811BD47CD9575910 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_918EB2D6286A40399634EC2BBFD6E3D1 }}
