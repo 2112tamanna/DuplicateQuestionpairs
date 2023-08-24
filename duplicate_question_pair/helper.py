@@ -22,7 +22,7 @@ def total_words(row):
 def test_fetch_token_features(q1, q2):
     SAFE_DIV = 0.0001
 
-    STOP_WORDS = pickle.load(open('stopwords.pkl','rb'))
+    STOP_WORDS = pickle.load(open(os.path.join('duplicate_question_pair','stopwords.pkl'),'rb'))
 
     token_features = [0.0] * 8
 
