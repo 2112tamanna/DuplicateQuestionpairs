@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 import distance
 import pickle
 import numpy as np
-cv = pickle.load(open('cv.pkl','rb'))
+import os
+cv = pickle.load(open(os.path.join('duplicate_question_pair','cv.pkl'),'rb'))
 
 #function that  will give common words present in both questions
 def common_words(row):
